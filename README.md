@@ -43,9 +43,7 @@ The app incorportate following feature for different it twow categories of user:
 
 Clone the project
 
-```bash
-  git clone https://github.com/lonebots/blood-bank-app.git
-```
+
 
 Open MySQL WorkBench and run the `database.sql` file. 
 
