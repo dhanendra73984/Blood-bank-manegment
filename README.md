@@ -17,10 +17,7 @@ The Application was build using following technologies:
 <img src = "resources/bbms%20relational%20schema.png" alt = "schema diagram" width = "350" /> <img src = "resources/bbms%20er%20diagram.png" alt = "ER diagram" width = "350" height = "322" />
 </p>
 
-## Deployment
 
-Click [me](https://lonebots.github.io/blood-bank-app/) for the live demo (several functionalites may be unavailabe since its statically hosted).\
-Watch the detailed explanation about the app [here](https://youtu.be/LRvpY_4qsOk)
 
 ## Features
 
@@ -69,23 +66,16 @@ To start the client
 ```
 
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
 
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 
-## Authors
 
-- [@lonebots](https://www.github.com/lonebots)
+
+
+
+
+
 
 <br/>
 <br/>
