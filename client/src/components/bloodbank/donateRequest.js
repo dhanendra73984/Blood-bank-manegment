@@ -64,7 +64,7 @@ export default class RequestClass extends Component {
   };
 
   request = () => {
-    Axios.post("http://localhost:3001/request", {
+    Axios.post("http://localhost:3001/donateblood", {
       blood_group: this.state.req_blood,
       unit: this.state.req_unit,
       userID: localStorage.getItem("userID"),
@@ -95,7 +95,7 @@ export default class RequestClass extends Component {
             {bloodGroupList}
           </select>
           <input type="number" placeholder="UNIT" onChange={this.updateUnit} />
-          <button onClick={this.request}>REQUEST</button>
+          <button onClick={this.request}>DONATE</button>
         </form>
       </div>
     );

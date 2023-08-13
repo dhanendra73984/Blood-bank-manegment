@@ -16,6 +16,8 @@ const UserLogin = () => {
       if (response.data.message) {
         alert(response.data.message);
       } else {
+        console.log(response.data.result);
+        localStorage.setItem("userID", response.data.result);
         alert("WELCOME!");
         window.location = "/login/usr/dash";
       }

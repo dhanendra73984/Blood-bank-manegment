@@ -9,10 +9,11 @@ const EmployeeLoginHandler = (app, db) => {
     const password = req.body.empPassword;
 
     //query
-    sqlSelect = "SELECT * FROM emp_login WHERE userName= ? AND password=?";
+     const sqlquery = "SELECT * FROM emp_login WHERE userName= ? AND password=?";
+   // const sqlSelect  = `SELECT * FROM emp_login WHERE userName= ${userName} AND password=${password}`;
 
     //
-    db.query(sqlSelect, [userName, password], (err, result) => {
+    db.query(sqlquery, [userName, password], (err, result) => {
       if (err) {
         res.send({ err: err });
         console.log("**ERROR**");

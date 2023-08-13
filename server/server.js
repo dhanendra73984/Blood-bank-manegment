@@ -24,6 +24,8 @@ import HandleRequestHandler from './controllers/bloodbank/HandleRequestHandler.j
 //dashboard
 import DashboardHandler from './controllers/dashboard/DashboardHandler.js';
 import SearchHandler from './controllers/bloodbank/SearchHandler.js';
+import DonateClassHandler from './controllers/bloodbank/DonateClassHandler.js';
+import HandleDonatetHandler from './controllers/bloodbank/HandleDonateHandler.js';
 
 //create the app
 var app = express();
@@ -36,7 +38,7 @@ app.use(express.json());
 var db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Password@123",
+  password: "Sunbeam_@123",
   database: "bbms",
 
 });
@@ -61,6 +63,8 @@ HandleRequestHandler(app, db);
 DashboardHandler(app, db);
 UpdateBlood(app, db);
 SearchHandler(app, db);
+DonateClassHandler(app, db);
+HandleDonatetHandler(app, db)
 
 //listening the port
 app.listen(3001, (err) => {

@@ -5,7 +5,8 @@ import "../../assets/css/UserDash.css";
 const UserDashboard = () => {
   //donate function
   const donate = () => {
-    alert("WE WILL GET IN TOUCH WITH YOU!");
+    //alert("WE WILL GET IN TOUCH WITH YOU!");
+    window.location="/donateblood"
   };
 
   const request =()=>{
