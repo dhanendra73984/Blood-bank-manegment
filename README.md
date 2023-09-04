@@ -74,13 +74,5 @@ To start the client
 
 
 
-
 <br/>
 <br/>
-<p align=center>
-<b>Made with ❤️ | leave a ⭐ if you loved the project</b>
-<br/>
-<br/>
-<br/>
-<a href="https://www.buymeacoffee.com/lonebots"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=lonebots&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
-</p>
